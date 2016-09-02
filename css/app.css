@@ -5814,12 +5814,6 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
-.summary-links {
-  background-color: #5e5e5e; }
-
-.dashboard {
-  background-color: #985f0d; }
-
 .app {
   background-color: #333;
   color: #fff;

@@ -13,8 +13,6 @@ var common_1 = require('@angular/common');
 var platform_browser_1 = require('@angular/platform-browser');
 var forms_1 = require('@angular/forms');
 var http_1 = require('@angular/http');
-var router_1 = require('@angular/router');
-var app_routes_1 = require('./app.routes');
 var app_component_1 = require('./app.component');
 var index_1 = require('./dashboard/index');
 var AppModule = (function () {
@@ -22,7 +20,7 @@ var AppModule = (function () {
     }
     AppModule = __decorate([
         core_1.NgModule({
-            imports: [platform_browser_1.BrowserModule, forms_1.FormsModule, common_1.CommonModule, http_1.HttpModule, router_1.RouterModule.forRoot(app_routes_1.AppRouteConfig)],
+            imports: [platform_browser_1.BrowserModule, forms_1.FormsModule, common_1.CommonModule, http_1.HttpModule],
             declarations: [index_1.DashboardComponent, app_component_1.AppComponent],
             providers: [
                 { provide: common_1.LocationStrategy, useClass: common_1.HashLocationStrategy },
